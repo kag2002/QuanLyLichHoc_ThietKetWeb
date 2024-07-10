@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tieude {
+  text-align: center;
+  color: white;
+  padding: 6px 0 20px 0;
+  margin: 15px 0 5px 0;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  font-size: 20px;
+  clear: both;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  table-layout: fixed;
+  color: rgb(29, 30, 119); 
+  text-align: center;
+  padding: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr {
+  background-color: white;
+}
+
+table tr th {
+  text-align: center;
+  background-color: rgb(243, 107, 107);
+  color: rgb(88, 5, 61);
+}
+
+table {
+  font-size: 15px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.gioithieutruong {
+  background-color:rgb(221, 92, 41);
+  color: cornsilk;
+  text-align: center;
+  padding: 5px 10px;
+  margin:10px 40px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 40px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 40px;
+  color: brown;
+  font-weight: bold;
+}
+.thanhlichhoc {
+  color: blanchedalmond;
+}
+
+.sidemenu ul {
+  width: 100%;
+}
+.sidemenu ul li {
+  list-style: none;
+  margin: 3vh 0;
+  padding: 1.9vh 15px ;
+  background-color: palegoldenrod;
+}
+
+.sidemenu ul li:hover {
+  list-style: none;
+  margin: 25px 0;
+  padding: 15px;
+  background-color: rgb(253, 242, 122);
+}
+
+.sidemenu ul li a {
+  font-size: 25px;
+  color: orangered;
+  text-decoration: none;
+}
+
+.bang {
+  height: 55vh;
+  padding: 0;
+  overflow: auto;
+}
+
+.dangkylich{
+  margin-left: 30px;
+  margin-top: 35vh;
+  font-size: 20px;
+}
+
+
